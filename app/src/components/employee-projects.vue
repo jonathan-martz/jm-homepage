@@ -1,7 +1,7 @@
 <template>
   <div class="vc-employee-projects">
     <h2 class="text-xl font-bold text-white mb-2">Projects:</h2>
-    <div v-for="(item, index) in items" class="card px-2 py-2 bg-white mb-3">
+    <div v-for="(item, index) in items" class="card px-2 py-2 bg-white mb-3 rounded-lg">
       <h2>
         <a :href="item.website" target="_blank" class="text-blue-400">
           {{ item.name }}</a

@@ -4,7 +4,7 @@
     <div
       v-for="(item, index) in items"
       :key="index"
-      class="projects bg-white px-2 py-2 mb-3"
+      class="projects bg-white px-2 py-2 mb-3 rounded-lg"
     >
       <h2 class="text-blue-400">
         <a :href="item.website" target="_blank">{{ item.name }}</a>

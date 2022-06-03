@@ -4,7 +4,7 @@
     <div
       v-for="(item, index) in items"
       :key="index"
-      class="mt-2 card bg-white px-2 py-2"
+      class="mt-2 card bg-white px-2 py-2 rounded-lg"
     >
       <span class="font-bold"> {{ item.name }}</span> <br />
       <ul class="card mt-2" v-for="(i, key) in item.tech">

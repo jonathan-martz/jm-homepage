@@ -3,7 +3,7 @@
     <h2 class="text-xl font-bold text-white mb-2">Jobs:</h2>
     <div
       v-for="(item, index) in items"
-      class="card bg-white border-blue-600 px-2 py-2 mb-2"
+      class="card bg-white border-blue-600 px-2 py-2 mb-2 rounded-lg"
     >
       <h2>
         <a :href="item.company.website" target="_blank" class="text-blue-400">{{
