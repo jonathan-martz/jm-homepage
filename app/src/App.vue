@@ -6,13 +6,15 @@
     <main class="mx-auto max-w-4xl min-h-screen">
      <router-view></router-view>
     </main>
-    <footer class="mx-auto max-w-4xl pb-2">Footer</footer>
+    <footer class="mx-auto max-w-4xl py-2">
+      <footer-general></footer-general>
+    </footer>
   </div>
 </template>
 
 <script>
-import header from "./components/header-general.vue";
-import footer from "./components/footer-general.vue";
+import header from "./components/header.vue";
+import footer from "./components/footer.vue";
 
 export default {
   components: {
