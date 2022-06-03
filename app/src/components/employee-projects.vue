@@ -35,7 +35,7 @@ export default {
           website: "https://www.toyota.de",
           name: "The & Partnership",
           tech: "Tridion",
-          desc: "Support for the Content Managment Team",
+          desc: "Support for the Content Managment Team for toyota.de",
         },
         {
           website: "https://www.perfumetrader.de",

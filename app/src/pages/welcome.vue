@@ -11,16 +11,19 @@
       <div class="col-span-6 md:col-span-4 text-center">
         <p class="text-white">
           <span class="font-bold"> Jonathan Martz </span> <br />
-          <span>Junior Fullstack Web Developer</span>
+          <span>{{ $t("welcome.job") }}</span>
         </p>
-        <h2 class="text-2xl mt-5">Willkommen</h2>
+        <h2 class="text-2xl mt-5">{{ $t("welcome.title") }}</h2>
         <p class="mt-5">
-          auf meiner neuen Webseite. Du findest hier <br />alle Informationen
-          über mich und meinen Beruf.
+          {{ $t("welcome.message") }} <br />
+          {{ $t("welcome.info") }}
         </p>
         <p class="mt-5">
-          Bei Fragen einfach melden per Mail an
-          <a href="mailto:fragen@jmartz.de" class="text-blue-600" target="_blank"
+          {{ $t("welcome.email") }}
+          <a
+            href="mailto:fragen@jmartz.de"
+            class="text-blue-600"
+            target="_blank"
             >fragen@jmartz.de</a
           >
         </p>
@@ -31,18 +34,28 @@
       <div class="col-span-6 md:col-span-3">
         <employee-jobs></employee-jobs>
       </div>
+      <div class="col-span-6 md:col-span-3">
+        <private-projects></private-projects>
+      </div>
+      <div class="col-span-6 md:col-span-3">
+        <skills></skills>
+      </div>
     </div>
   </div>
 </template>
 <script>
 import EmployeeJobs from "../components/employee-jobs.vue";
 import EmployeeProjects from "../components/employee-projects.vue";
+import PrivateProjects from "../components/private-projects.vue";
+import Skills from "../components/skills.vue";
 
 export default {
   name: "Welcome",
   components: {
     "employee-projects": EmployeeProjects,
     "employee-jobs": EmployeeJobs,
+    skills: Skills,
+    "private-projects": PrivateProjects,
   },
 };
 </script>

@@ -11,7 +11,7 @@
         }}</a>
         - {{ item.job.name }}
       </h2>
-      <p>{{ item.job.from }} - {{ item.job.until }}</p>
+      <p class="text-sm">{{ item.job.from }} - {{ item.job.until }}</p>
       <p class="text-sm text-gray-600">{{ item.job.desc }}</p>
     </div>
   </div>
