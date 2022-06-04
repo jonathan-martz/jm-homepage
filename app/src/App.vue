@@ -1,5 +1,5 @@
 <template>
-  <div class="main-view space-y-2">
+  <div class="main-view space-y-2 p-2">
     <header class="mx-auto max-w-4xl pt-2">
       <header-general></header-general>
     </header>
