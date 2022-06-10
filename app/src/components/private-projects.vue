@@ -65,6 +65,16 @@ export default {
           website: "https://www.olaf-linscheid.de",
           desc: "Homepage für einen Handwerker.",
         },
+        {
+          name: "www.guido-richardts.de",
+          website: "https://www.guido-richardts.de",
+          desc: "Homepage für einen Friseur.",
+        },
+         {
+          name: "www.klotz-imbiss.de",
+          website: "https://www.klotz-imbiss.de",
+          desc: "Homepage für einen Imbiss.",
+        },
       ],
     };
   },
