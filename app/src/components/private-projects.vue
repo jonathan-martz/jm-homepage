@@ -58,7 +58,7 @@ export default {
         {
           name: "www.mauelshagen-baustoffe.de",
           website: "https://www.mauelshagen-baustoffe.de",
-          desc: "Homepage für eine Baustoffhandel",
+          desc: "Homepage für einen Baustoffhandel",
         },
         {
           name: "www.olaf-linscheid.de",
@@ -74,6 +74,11 @@ export default {
           name: "www.klotz-imbiss.de",
           website: "https://www.klotz-imbiss.de",
           desc: "Homepage für einen Imbiss.",
+        },
+        {
+          name: "www.my-media.world",
+          website: "https://www.my-media.world",
+          desc: "Homepage für einen digitales Film und Serien Regal",
         },
       ],
     };

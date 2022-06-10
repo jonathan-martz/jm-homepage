@@ -168,7 +168,7 @@ export default {
             {
               name: "Laravel Nova",
               website: "https://nova.laravel.com/",
-              level: 3,
+              level: 2,
               percent: 40,
             },
           ],
