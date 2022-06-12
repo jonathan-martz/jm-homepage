@@ -46,6 +46,18 @@ export default {
             website: "https://www.flagbit.de",
           },
         },
+         {
+          job: {
+            name: "Junior Fullstack Web Developer",
+            from: "01.4.2020",
+            until: "30.09.2020",
+            desc: "Als Entwickler habe ich das Content Managment Team von Toyota.de unterstützt",
+          },
+          company: {
+            name: "The & Partnership Germany",
+            website: "https://theandpartnership.com/de/",
+          },
+        },
         {
           job: {
             name: "Junior Fullstack Web Developer",
