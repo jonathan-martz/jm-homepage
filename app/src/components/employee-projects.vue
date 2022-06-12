@@ -33,7 +33,7 @@ export default {
         },
         {
           website: "https://www.toyota.de",
-          name: "The & Partnership",
+          name: "The & Partnership Germany",
           tech: "Tridion",
           desc: "Support for the Content Managment Team for toyota.de",
         },
